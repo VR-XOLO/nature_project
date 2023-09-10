@@ -1,0 +1,720 @@
+
+
+/* ############### css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.7;
+}
+
+
+/* ################ navbar of page ############## */
+
+.header {
+  height: 90vh;
+  background: url("../images/max-kuntscher-Cpb2HY41bs8-unsplash.jpg") center
+    center no-repeat;
+  opacity: 1.9;
+  
+  font-weight: bold;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.navbar a:visited,
+a:link {
+  color: white;
+}
+
+.navbar a:hover {
+  border-bottom: 0.2rem solid white;
+}
+
+.navbar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.navbar .logo {
+  float: left;
+  font-family: "Ubuntu", sans-serif;
+  padding: 1.1rem;
+}
+
+.navbar .items {
+  float: right;
+}
+
+.navbar .items .item {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.navbar .items .item a {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  margin-bottom: 0.5em;
+  margin-top: 1.8rem;
+}
+
+
+/* ################# utility classes ################ */
+
+
+p,
+li {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+  font-family: "Ubuntu", sans-serif;
+}
+h2,
+h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.height-1 {
+  font-size: 3.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.height-2 {
+  font-size: 2.2rem;
+ 
+  font-family: "Ubuntu", sans-serif;
+}
+.height-3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bg-dark{
+  background-color: black;
+  font-weight: bold;
+}
+.ab-dark{
+  color: white;
+}
+ul li{
+  list-style: none;
+}
+
+/* ############ styling head-content ############## */
+
+.head-content h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16rem 0rem;
+}
+
+/* ################## styling buttons ################# */
+
+.btn {
+  font-weight: bold;
+  padding: 1em 4em;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2.5rem 0rem;
+  border-radius: 10em;
+  font-family: "ubantu", sans-serif;
+  cursor: pointer;
+}
+.btn-1{
+  display: inline-block;
+    text-decoration: none;
+    padding: 0.8em 3em ;
+    margin-top: 1rem ;
+    font-size: 1.6rem;
+}
+
+.btn-2{
+  display: inline-block;
+    text-decoration: none;
+    padding: 0.8em 3em ;
+    margin-top: 1rem ;
+    font-size: 1.1rem;
+}
+.form .form-btn{
+  text-align: center;
+  margin: 2rem 17rem; 
+}
+/* ######## 2nd section of page ########## */
+
+.sec {
+  background-color: white;
+  margin: 10rem 0rem;
+}
+.row {
+  border: 2px solid black;
+  height: 35rem;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* .row1 {
+  
+} */
+.row1 .imgbox,
+.row2 .textbox {
+  float: left;
+  width: 50%;
+}
+.row1 .textbox,
+.row2 .imgbox {
+  float: right;
+  width: 50%;
+}
+.row1 .imgbox,
+.row2 .imgbox {
+ 
+  height: 100%;
+}
+
+.row .imgbox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row1 .textbox,
+.row2 .textbox {
+  
+  padding: 3rem;
+  background-color:white;
+  height: 100%;
+}
+.row2{
+  margin-top: 10rem;
+}
+
+.row h2{
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  
+}
+.row p{
+  font-size: 1.6rem;
+}
+
+
+/* ############## features section of page ############ */
+
+
+
+.features{
+  background-color: white;
+  padding: 10rem 0rem;
+  /* border: 10PX SOLID black; */
+}
+
+
+.box{
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+  float: left;
+  width: 33.333%;
+  font-family: "ubantu",sans-serif;
+  
+}
+.boxes::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.box1,.box3{
+  background-color: black;
+  color: white;
+}
+.box2{
+  background-color: whitesmoke;
+}
+
+
+/* ############ footer section of page #############  */
+
+
+.footer{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.social-id i{
+  margin: 2rem;
+}
+.footer p{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer a:visited,
+a:link {
+  color: white;
+}
+
+
+
+
+/* ############ about page ############# */
+
+.about{
+  padding: 5rem 0rem;
+}
+.about-heading::after{
+  content: "";
+  display: block;
+  border: 3px solid black;
+  width: 100%;
+}
+.about-heading{
+    font-size: 2rem ;
+}
+
+.about-box{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about-box .left-box{
+  float: left;
+  width: 50%;
+}
+.about-box .right-box{
+  float: right;
+  width: 50%;
+}
+.about-box::after{
+ content: "";
+ display: block;
+ clear: both;
+}
+.about-box li::before{
+  content: '\2713';
+  color: black;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+/* ####### count styling ########## */
+.count{
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 2rem ;
+}
+.count::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.count-item1, .count-item2, .count-item3, .count-item4{
+  float: left;
+  width: 25%;
+}
+ 
+/* ####### banner of about page ############ */
+
+.banner{
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  padding: 1rem ;
+}
+.banner::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.banner-left{
+  float: left;
+  width: 60%;
+  
+  text-align: center;
+  padding-top: 1rem;
+}
+.banner-right{
+  float: right;
+  width: 40%;
+  
+}
+
+.banner-right .con-btn{
+  
+  display: inline-block;
+  margin: 0.4rem 0rem 0.4rem 19rem;
+  padding: 1rem 7rem;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+  /* ######## contact us page #############  */
+
+  .contact{
+    padding: 5rem 0;
+    font-size: 2rem;
+  }
+  
+  .contact-box::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .address{
+        /* border: 2px solid red; */
+        width: 49%;
+        float: left;
+        height: 61rem;
+        background-color: black;
+        color: white;
+  }
+  
+  
+  .com-add i{
+    display: inline-block;
+    padding:  1rem ;
+  }
+  .com-add h2{
+    display: inline-block;
+  }
+  .com-add p{
+    padding: 0 1rem;
+  }
+  
+  .con-img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+    border: 2px solid black;
+
+  }
+  
+  /* ########### form styling ############ */
+  
+  .form{
+    border: 2px solid black;
+    width: 49%;
+    float: right;
+    background-color: black;
+    color: white;
+    height: 63.5rem;
+  }
+  .form h1{
+    margin-left: 1rem ;
+    text-transform: uppercase;
+    font-family: "ubantu", sans-serif;
+    text-align: center;
+  }
+  .form p{
+    text-align: center;
+    font-family: "ubantu", sans-serif;
+  }
+  .form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid white;
+    width: 90%;
+    margin: 0 1rem 1rem 1.5rem;
+  }
+  .form label{
+    display: block;
+    text-align: center;
+    font-family: "ubantu", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: .5rem 0;
+  }
+  .form input, textarea{
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0 2rem;
+    text-align: center;
+  }
+ 
+  /* ######## media quires of website ###############  */
+
+  @media  (max-width:500px) {
+    
+    html{
+      font-size: 50%;
+    }
+
+    .navbar .items, .navbar .logo{
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+.head-content h1{
+  margin-bottom: 2rem;
+}
+
+    .head-content p{
+      text-align: center;
+      display: none;
+    }
+
+    .row{
+      height: auto;
+      width: 100%;
+    }
+    .row .imgbox, .row .textbox{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+   .boxes .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .boxes .box2, .boxes .box3{
+    margin-top: 2rem;
+   }
+
+
+   .about .media{
+    text-align: center;
+   }
+   .about h2{
+    text-align: center;
+   }
+   .banner .banner-item{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .banner  .con-btn{
+    /* margin-left: 10rem; */
+    display: none;
+    /* width: 100%; */
+
+    
+   }
+    .contact .address{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+    .contact .form{
+      float: none;
+      width: 100%;
+      height: auto;
+     
+    }
+.com-add p{
+  padding-left: 5rem;
+}
+.flexx{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  }
+
+  @media (min-width:501px) and (max-width:768px){
+    html{
+      font-size: 8px;
+    }
+    p{
+      font-size: 1.8rem;
+    }
+
+    .navbar .items, .navbar .logo{
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+.head-content h1{
+  margin-bottom: 2rem;
+}
+
+    .head-content p{
+      text-align: center;
+      /* display: none; */
+    }
+
+    .row{
+      height: auto;
+      width: 100%;
+    }
+    .row .imgbox, .row .textbox{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+   .boxes .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .boxes .box2, .boxes .box3{
+    margin-top: 2rem;
+   }
+
+
+   .about .media{
+    text-align: center;
+   }
+   .about h2{
+    text-align: center;
+   }
+   .banner .banner-item{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .banner  .con-btn{
+    /* margin-left: 10rem; */
+    display: none;
+    /* width: 100%; */
+
+    
+   }
+    .contact .address{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+    .contact .form{
+      float: none;
+      width: 100%;
+      height: auto;
+     
+    }
+.com-add p{
+  padding-left: 5rem;
+}
+.flexx{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  }
+
+  @media (min-width:769px) and (max-width:1200px){
+    html{
+      font-size: 56.5%;
+    }
+
+    .navbar .items, .navbar .logo{
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+.head-content h1{
+  margin-bottom: 2rem;
+}
+
+    .head-content p{
+      text-align: center;
+      /* display: none; */
+    }
+
+    .row{
+      height: auto;
+      width: 100%;
+    }
+    .row .imgbox, .row .textbox{
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+
+   .boxes .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .boxes .box2, .boxes .box3{
+    margin-top: 2rem;
+   }
+
+
+   .about .media{
+    text-align: center;
+   }
+   .about h2{
+    text-align: center;
+   }
+   .banner .banner-item{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .banner  .con-btn{
+    /* margin-left: 10rem; */
+    display: none;
+    /* width: 100%; */
+
+    
+   }
+    .contact .address{
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+    .contact .form{
+      float: none;
+      width: 100%;
+      height: auto;
+     
+    }
+.com-add p{
+  padding-left: 5rem;
+}
+.flexx{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  }
+
+  @media (orientation:landscape) and (max-height:500px){
+    .header{
+      height: 90vmax;
+    }
+  }
